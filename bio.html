@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Page Title</title>
+    <title>Bio Page</title>
+    <link rel="stylesheet" href="styles.css"/>
   </head>
+
   <body>
-    <h1>Bio Page - Emily Middleton</h1>
+    <h1 style="font-size: 30px"> Bio Page - Emily Middleton</h1>
     <p>Hello! My name is Emily, and I am a sophmore computer science major at Smith College.</p>
-    <a href="https://www.smith.edu/" target="_blank">Click here for more about Smith College</a>
+    <a style="font-weight:bold" href="https://www.smith.edu/" target="_blank">Click here for more about Smith College</a>
     <p>When I'm not working at my computer, I enjoy</p>
     <!-- /* unordered list */  -->
-    <ul>
-      <li> knitting </li>
-      <li> swimming </li>
-      <li> reading</li>
-    </ul>
-    <p>So if you have any book reccommendations, let me know!</p>
+    <div class="flex">
+      <div id="bordered">
+        <ul class="list">
+          <li> knitting </li>
+          <li> swimming </li>
+          <li> reading</li>
+        </ul>
+      </div>
+    </div>
+    
+    <p>So if you have any book recommendations, let me know!</p>
     <p>I'm from a small town west of Minneapolis, MN, though I've moved a few times around the US.</p>
     <p>I have a cat named Natasha, and she sometimes appears in my office while I work.</p>
-    <img src="natasha.jpg" width=300px alt="a sleeping cat" \>
+    <div class="flex">
+      <img id="image" src="natasha.jpg" width=300px alt="a sleeping cat" \>
+    </div>
   </body>
 </html>
