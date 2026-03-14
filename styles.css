@@ -1,0 +1,21 @@
+body {
+  font-family: 'Courier New';
+  background-color: rgb(242, 242, 225);
+}
+
+#bordered{
+  border: 1px solid black;
+}
+
+.list{
+  margin-right: 10px
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+#image{
+  border:2px solid black
+}
